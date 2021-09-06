@@ -13,7 +13,7 @@ class Inside : AppCompatActivity() {
 
     private lateinit var navDrawer : DrawerLayout
 
-    lateinit var toggle: ActionBarDrawerToggle
+    private lateinit var toggle: ActionBarDrawerToggle
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_inside)
@@ -31,6 +31,7 @@ class Inside : AppCompatActivity() {
         setCurrentFragment(homeFragment,title.toString())
 
         navView.setNavigationItemSelectedListener {
+            it.isChecked = true
             when(it.itemId){
                 R.id.Home->setCurrentFragment(homeFragment,it.title.toString())
                 R.id.Settings->setCurrentFragment(settingsFragment, it.title.toString())
