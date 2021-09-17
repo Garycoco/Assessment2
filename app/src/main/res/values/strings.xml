@@ -3,10 +3,9 @@
     <string name="open">open</string>
     <string name="close">close</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="button2activity">Button2Activity</string>
-    <string name="button3activity">Button3Activity</string>
-    <string name="button1activity">Button1Activity</string>
+    <string name="button2activity">welcome to button 2 activity</string>
+    <string name="button3activity">welcome to button 3 activity</string>
+    <string name="button1activity">welcome to button 1 activity</string>
     <string name="button_2">Button 2</string>
     <string name="button_1">Button 1</string>
     <string name="button_3">Button 3</string>
@@ -17,4 +16,10 @@
     <string name="logout">Logout</string>
     <string name="gary_masinga">Gary Masinga</string>
     <string name="gary_masinga_com">Gary@masinga.com</string>
+    <string name="change">Change</string>
+    <string name="email">Email: </string>
+    <string name="name_and_surname">Names: </string>
+    <string name="button1">welcome to button 1 activity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_077414144">077414144</string>
 </resources>

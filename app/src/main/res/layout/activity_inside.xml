@@ -6,7 +6,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/drawerLayout"
+    tools:openDrawer="start"
     tools:context=".Inside">
+
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        layout="@layout/content_main"/>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -36,3 +43,4 @@
 
 
 </androidx.drawerlayout.widget.DrawerLayout>
+

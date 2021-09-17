@@ -6,11 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".Button3Activity">
 
+    <include layout="@layout/content_main"
+        android:layout_weight="0.4"
+        android:layout_height="0dp"
+        android:layout_width="match_parent" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button3activity"
-        android:textSize="40sp"
+        style="?textRegular"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"

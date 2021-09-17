@@ -2,18 +2,21 @@ package com.example.datamate
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.datamate.databinding.ActivityButton2Binding
 
 class Button2Activity : AppCompatActivity() {
+    private lateinit var binding: ActivityButton2Binding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_button2)
+        binding = ActivityButton2Binding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-        supportActionBar!!.setDisplayHomeAsUpEnabled(true)
-        supportActionBar!!.title = "Activity 2"
+        val toolbar = findViewById<androidx.appcompat.widget.Toolbar>(R.id.toolbar)
+        setSupportActionBar(toolbar)
+        supportActionBar?.title = "Button2Activity"
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
+
     }
-    override fun onSupportNavigateUp(): Boolean {
-        return super.onSupportNavigateUp()
-        onBackPressed()
-        return super.onSupportNavigateUp()
-    }
+
 }

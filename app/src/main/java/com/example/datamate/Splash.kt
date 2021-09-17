@@ -13,7 +13,7 @@ class Splash : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
 
-        supportActionBar!!.hide()
+
 
         val title = findViewById<TextView>(R.id.title)
         val slide = android.view.animation.AnimationUtils.loadAnimation(this,R.anim.slide)

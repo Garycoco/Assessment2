@@ -9,8 +9,18 @@
     <color name="white">#FFFFFF</color>
 
 
+    <color name="color_primary">#F3CB51</color>
+    <color name="color_primary_variant">#F3CB51</color>
+    <color name="color_secondary">#5A97CF</color>
+    <color name="color_secondary_variant">#2F72B9</color>
+    <color name="color_on_primary">#20201e</color>
+    <color name="color_on_secondary">#303031</color>
+    <color name="whiteSmoke">#f7f7f7</color>
 
-    <color name="primary">#2196F3</color>
+
+
+
+<color name="primary">#2196F3</color>
     <color name="primary_dark">#1976D2</color>
     <color name="primary_light">#BBDEFB</color>
     <color name="accent">#536DFE</color>

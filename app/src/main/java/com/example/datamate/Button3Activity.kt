@@ -8,12 +8,12 @@ class Button3Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_button3)
 
-        supportActionBar!!.setDisplayHomeAsUpEnabled(true)
-        supportActionBar!!.title = "Activity 3"
+        val toolbar = findViewById<androidx.appcompat.widget.Toolbar>(R.id.toolbar)
+        setSupportActionBar(toolbar)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.title="Button3Activity"
+
+
     }
-    override fun onSupportNavigateUp(): Boolean {
-        return super.onSupportNavigateUp()
-        onBackPressed()
-        return super.onSupportNavigateUp()
-    }
+
 }
